@@ -142,62 +142,18 @@ function filtrarProjetos() {
         footer { background: var(--secondary); color: white; text-align: center; padding: 2rem; }
     </style>
 </head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
 
-    <header>
-        <div class="logo">Elo<span>Solidário</span></div>
-        <nav>Projetos | Sobre | Contato</nav>
-    </header>
+    <nav>...</nav> 
+    <main>...</main>
 
-    <section class="hero">
-        <h1>Pequenos gestos, grandes mudanças.</h1>
-        <p>Conectando quem quer ajudar com quem precisa transformar sua realidade.</p>
-    </section>
-
-    <div class="container">
-        <div class="grid-acoes">
-            <div class="card">
-                <i class="fas fa-hand-holding-heart"></i>
-                <h3>Doe Mantimentos</h3>
-                <p>Encontre pontos de coleta de alimentos e roupas próximos a você através do nosso mapa interativo.</p>
-                <button class="btn" onclick="abrirModal()">Ver Pontos de Coleta</button>
-            </div>
-
-            <div class="card">
-                <i class="fas fa-graduation-cap"></i>
-                <h3>Cursos Gratuitos</h3>
-                <p>Acesse nossa curadoria de cursos de capacitação técnica para jovens em situação de vulnerabilidade.</p>
-                <a href="#" class="btn btn-accent">Acessar Aulas</a>
-            </div>
-
-            <div class="card">
-                <i class="fas fa-users"></i>
-                <h3>Seja Voluntário</h3>
-                <p>Doe seu tempo ou conhecimento para mentorar pessoas que buscam reintegração no mercado de trabalho.</p>
-                <a href="#" class="btn">Cadastrar Perfil</a>
-            </div>
-        </div>
-    </div>
-
-    <div id="modal-doacao">
-        <h3>Encontrar Pontos</h3>
-        <p>Digite seu CEP para localizar a ONG mais próxima:</p>
-        <input type="text" placeholder="00000-000" style="width: 100%; padding: 10px; margin-bottom: 10px;">
-        <button class="btn" onclick="fecharModal()">Buscar</button>
-        <button onclick="fecharModal()" style="background:none; border:none; color:red; cursor:pointer; display:block; margin: 10px auto;">Fechar</button>
-    </div>
-
-    <footer>
-        <p>&copy; 2026 Elo Solidário - Tecnologia a serviço da humanidade.</p>
-    </footer>
-
-    <script>
-        function abrirModal() {
-            document.getElementById('modal-doacao').style.display = 'block';
-        }
-        function fecharModal() {
-            document.getElementById('modal-doacao').style.display = 'none';
-        }
-    </script>
-</body>
+    <script src="script.js"></script> </body>
+</html>
 </html>
